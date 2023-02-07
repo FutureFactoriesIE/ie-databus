@@ -36,7 +36,7 @@ print(databus.tags)
 
 The output is a Python `dict`, specifically of type `Dict[str, `[`Tag`](https://github.com/FutureFactoriesIE/ie-databus/blob/e89676e1649876402c247fbbc90e08ef1b8172cb/ie_databus.py#L10)`]`. The keys represent the name of a PLC tag and the value is a [`Tag`](https://github.com/FutureFactoriesIE/ie-databus/blob/e89676e1649876402c247fbbc90e08ef1b8172cb/ie_databus.py#L10) object with data about its respective tag.
 
-[`Tag`](https://github.com/FutureFactoriesIE/ie-databus/blob/e89676e1649876402c247fbbc90e08ef1b8172cb/ie_databus.py#L10) objects have 6 relevant attributes:
+[`Tag`](https://github.com/FutureFactoriesIE/ie-databus/blob/e89676e1649876402c247fbbc90e08ef1b8172cb/ie_databus.py#L10) objects have 7 relevant attributes:
 | Name | Type | Description |
 | :--: | :--: | ----------- |
 | `name` | `str` | The name of the PLC tag |
