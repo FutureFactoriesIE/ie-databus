@@ -43,6 +43,7 @@ The output is a Python `dict`, specifically of type `Dict[str, `[`Tag`](https://
 | `id` | `str` | The ID of the PLC tag |
 | `data_type` | `str` | The original data type of the `val` attribute |
 | `qc` | `int` |
+| `qx` | `int` |
 | `ts` | `str` | The timestamp of when this data was received |
 | `val` | `float` | The current value of the PLC tag |
 
