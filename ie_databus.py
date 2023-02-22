@@ -1,7 +1,7 @@
 import json
 from dataclasses import dataclass
 from threading import Event, Lock
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional
 
 import paho.mqtt.client as mqtt
 
@@ -19,21 +19,21 @@ class Tag:
         The ID of the PLC tag
     data_type: str
         The original data type of the val attribute
-    qc: int, optional
+    qc: int, optional
     qx: int, optional
-    ts: str, optional
+    ts: str, optional
         The timestamp of when this data was received
-    val: float, optional
+    val: float, optional
         The current value of the PLC tag
     """
 
     name: str
     id: str
     data_type: str
-    qc: Optional[int]
-    qx: Optional[int]
-    ts: Optional[str]
-    val: Optional[float]
+    qc: Optional[int]
+    qx: Optional[int]
+    ts: Optional[str]
+    val: Optional[float]
 
 
 class IEDatabus:
